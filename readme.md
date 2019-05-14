@@ -1,3 +1,20 @@
+**Setup**
+
+`git clone https://github.com/jamesdigid/weecare_backend_challenge.git`
+
+`composer install`
+
+`cp .env.example .env`
+
+Supply the .env with your database crednetials. 
+
+`php artsian migrate`
+
+`php artisan serve`
+
+**Unit Test**
+Go to project folder: `vendor/bin/phpunit`
+
 **Show Albums**
 ----
   Returns json data of 100 albums by default.
@@ -56,3 +73,4 @@
       }
     });
   ```
+
